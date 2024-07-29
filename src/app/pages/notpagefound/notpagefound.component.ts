@@ -5,8 +5,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './notpagefound.component.html',
-  styles: ``
+  styleUrls: ['./notpagefound.component.css']
 })
 export class NotPageFoundComponent {
+  year:number = new Date().getFullYear();
 
 }
