@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './progress.component.html',
-  styles: ``
+  styleUrls: ['./progress.component.css']
 })
 export class ProgressComponent {
 
