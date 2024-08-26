@@ -12,7 +12,7 @@ export const routes: Routes = [
     {
         path: 'dashboard', component: PagesComponent,
         children: [
-            { path: '.', component: DashboardComponent, data:{titulo:'Dashboard'} },
+            { path: '', component: DashboardComponent, data:{titulo:'Dashboard'} },
             { path: 'progress', component: ProgressComponent, data:{titulo:'Progress'} },
             { path: 'account-settings', component: AccountSettingsComponent, data:{titulo:'Account Settings'} },
             { path: 'rxjs', component: RxjsComponent, data:{titulo:'Rxjs'} },
